@@ -22,7 +22,8 @@ export const aboutData = {
     'Hola, mi nombre es Jose Enrique Padilla Roman actualmente tengo 20 años, soy estudiante de Ingenieria en Sistemas de Computacion en la Universidad Fidelitas y estoy en mi antepenúltimo cuatrimestre.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: './curriculum_Jose_Enrique_Padilla_Roman.pdf', // if no resume, the button will not show up
+  resume:
+    'https://filebin.net/w12554wjuxzumf0u/curriculum_Jose_Enrique_Padilla_Roman.pdf?t=g3mqb8pv', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,7 +35,7 @@ export const projectsData = [
     info: 'Aplicacion hecha como parte del TCU para Territorio de Zaguates',
     info2:
       'En este proyecto utilize React, Redux y en el servidor Node.js, con Express.js, MongoDB con Mongoose, AWS S3 para manejo de archivos y AWS SES para emails en TypeScript',
-    url: '',
+    url: 'https://inspiring-brattain-814835.netlify.app/adoptions',
     repo: 'https://github.com/A1DS19/shelterTCU', // if no repo, the button will not show up
   },
   {
