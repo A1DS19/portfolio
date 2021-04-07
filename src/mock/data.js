@@ -35,7 +35,7 @@ export const projectsData = [
     info: 'Aplicacion hecha como parte del TCU para Territorio de Zaguates',
     info2:
       'En este proyecto utilize React, Redux y en el servidor Node.js, con Express.js, MongoDB con Mongoose, AWS S3 para manejo de archivos y AWS SES para emails en TypeScript',
-    url: 'https://inspiring-brattain-814835.netlify.app/adoptions',
+    url: 'https://inspiring-brattain-814835.netlify.app/',
     repo: 'https://github.com/A1DS19/shelterTCU', // if no repo, the button will not show up
   },
   {
