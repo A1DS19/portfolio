@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hola, mi nombre es Jose Enrique Padilla Roman actualmente tengo 20 años, soy estudiante de Ingenieria en Sistemas de Computacion en la Universidad Fidelitas y estoy en mi antepenúltimo cuatrimestre.',
+    'Hola, mi nombre es Jose Enrique Padilla Roman, soy desarrollador web full-stack. Actualmente tengo 20 años, soy estudiante de Ingenieria en Sistemas de Computacion en la Universidad Fidelitas y estoy en mi antepenúltimo cuatrimestre.',
   paragraphTwo: '',
   paragraphThree: '',
   resume:
-    'https://filebin.net/w12554wjuxzumf0u/curriculum_Jose_Enrique_Padilla_Roman.pdf?t=g3mqb8pv', // if no resume, the button will not show up
+    'https://filebin.net/wiygj6e5qfmde769/curriculum_Jose_Enrique_Padilla_Roman.pdf?t=yv1f15vg', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -62,7 +62,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Te gustaria trabajar conmigo?',
+  cta: '',
   btn: 'HABLEMOS',
   email: 'jp06171@gmail.com',
 };
