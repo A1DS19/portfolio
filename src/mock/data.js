@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume:
-    'https://filebin.net/wiygj6e5qfmde769/curriculum_Jose_Enrique_Padilla_Roman.pdf?t=yv1f15vg', // if no resume, the button will not show up
+    'https://filebin.net/7ac7shoe1yboljah/curriculum_Jose_Enrique_Padilla_Roman_eng.pdf?t=rll77fzl', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
