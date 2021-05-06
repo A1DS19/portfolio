@@ -22,8 +22,7 @@ export const aboutData = {
     'Hola, mi nombre es Jose Enrique Padilla Roman, soy desarrollador web full-stack. Actualmente tengo 20 años, soy estudiante de Ingenieria en Sistemas de Computacion en la Universidad Fidelitas y estoy en mi antepenúltimo cuatrimestre.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume:
-    'https://filebin.net/7ac7shoe1yboljah/curriculum_Jose_Enrique_Padilla_Roman_eng.pdf?t=rll77fzl', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1MIs8wLoIO3K3A6KCJbk17k0yJSwP9Fqt/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
