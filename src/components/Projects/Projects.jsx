@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Proyectos Recientes" />
+          <Title title="Recent Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        Ver Ahora
+                        See Now
                       </a>
 
                       {repo && (
@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Ver Repo
+                          See Repo
                         </a>
                       )}
                     </div>
@@ -110,6 +110,28 @@ const Projects = () => {
               </Row>
             );
           })}
+
+          <Container>
+            <Fade bottom duration={1000} delay={800} distance="30px">
+              <div>
+                <a
+                  style={{
+                    color: 'black',
+                    borderStyle: 'solid',
+                    borderWidth: '1px',
+                    padding: '0.5em',
+                    fontWeight: 'bold',
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=""
+                  href="https://github.com/A1DS19"
+                >
+                  More here
+                </a>
+              </div>
+            </Fade>
+          </Container>
         </div>
       </Container>
     </section>

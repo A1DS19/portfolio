@@ -9,17 +9,17 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hola, me llamo',
+  title: 'Hello, my name is',
   name: 'Jose Enrique',
   subtitle: '',
-  cta: 'Conoce mas',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hola, mi nombre es Jose Enrique Padilla Roman, soy desarrollador web full-stack. Actualmente tengo 20 años, soy estudiante de Ingenieria en Sistemas de Computacion en la Universidad Fidelitas y estoy en mi antepenúltimo cuatrimestre.',
+    'Hello, my name is Jose Enrique Padilla Roman, I am a full-stack web developer. I am currently 21 years old, I am a Computer Systems Engineering student at Fidelitas University and I currently work as a web developer at Accenture.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/10MQNf_Dmgabv8b7chRNO495FnJHUwosZ/view?usp=sharing', // if no resume, the button will not show up
@@ -29,40 +29,51 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project3.png',
-    title: 'ADOPTME.CR',
-    info: 'Aplicacion hecha como parte del TCU para Territorio de Zaguates',
+    img: 'zaguates.png',
+    title: 'Territorio de Zaguates',
+    info: 'Application made as part of my University TCU for Territorio de Zaguates',
     info2:
-      'En este proyecto utilize React, Redux y en el servidor Node.js, con Express.js, MongoDB con Mongoose, AWS S3 para manejo de archivos y AWS SES para emails en TypeScript',
-    url: 'https://inspiring-brattain-814835.netlify.app/',
+      "In this project I used React, Redux and a NestJS server with MongoDB and Cloudinary for the images all in TypeScript. The project, although it's already approved by the people of Territorio de Zaguates, still needs more data of the remaining dogs.",
+    url: 'https://rescatezaguates.netlify.app/adoptions',
     repo: 'https://github.com/A1DS19/shelterTCU', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project1.png',
     title: 'FakeFlix',
-    info: '"Copia" de netflix utilizando React',
+    info: 'UI copy of Netflix',
     info2:
-      'En este proyecto utilize React y el API de themoviedb para extraer informacion de diferentes peliculas y series.',
+      'In this project I used React and themoviedb API to extract information from different movies and series.',
     url: 'https://kind-villani-768251.netlify.app/',
     repo: 'https://github.com/A1DS19/fake-flix.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.png',
-    title: 'socialNET',
-    info: 'socialNET es una red social para eventos.',
+    img: 'rooms.png',
+    title: 'ChatRooms',
+    info: 'An application to create "rooms" and talk by video/audio or both.',
     info2:
-      'En este proyecto utiliza React, Redux y Firebase para autenticacion, manejo de archivos en este caso imagenes, base de datos, y base de datos realtime para la seccion de chat para cada evento y notificaciones.',
-    url: 'https://socialnet-301802.web.app/events',
-    repo: 'https://github.com/A1DS19/socialNET', // if no repo, the button will not show up
+      'In this project I used React with Next.js, NestJS on the server, the server has a Rest API and a sockets API for the messages in the rooms also it uses Agora to manage the video part of the chat.',
+    url: 'https://videochat-five.vercel.app/auth?type=login',
+    repo: 'https://github.com/A1DS19/videochat', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'heart-desease.png',
+    title: 'Heart Disease Detector',
+    info: 'Predicting heart disease using machine learning.',
+    info2:
+      'Given clinical parameters about a patient can we predict if that person has heart disease? I created a machine learning alghoritm that uses a classification estimator to detect with 88% accuracy if a patient has heart disease, in this project I used scikit-learn and a Random Forest Classifier.',
+    url:
+      'https://github.com/A1DS19/heart-desease-detector-classifier/blob/Main/heart-disease-classification.ipynb',
+    repo: 'https://github.com/A1DS19/heart-desease-detector-classifier', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: 'HABLEMOS',
+  btn: "Let's talk",
   email: 'jp06171@gmail.com',
 };
 

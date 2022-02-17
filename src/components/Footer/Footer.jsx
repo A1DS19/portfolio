@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Por{' '}
+          © {new Date().getFullYear()} - by{' '}
           <a href="https://github.com/A1DS19" target="_blank" rel="noopener noreferrer">
             Jose E Padilla
           </a>
