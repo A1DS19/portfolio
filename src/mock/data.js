@@ -22,7 +22,7 @@ export const aboutData = {
     'Hello, my name is Jose Enrique Padilla Roman, I am a full-stack web developer. I am currently 21 years old, I am a Computer Systems Engineering student at Fidelitas University and I currently work as a web developer at Accenture.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/10MQNf_Dmgabv8b7chRNO495FnJHUwosZ/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1VMLgNM_Ykwc6digQCWVel0qavElx-bGL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -63,7 +63,7 @@ export const projectsData = [
     title: 'Heart Disease Detector',
     info: 'Predicting heart disease using machine learning.',
     info2:
-      'Given clinical parameters about a patient can we predict if that person has heart disease? I created a machine learning alghoritm that uses a classification estimator to detect with 88% accuracy if a patient has heart disease, in this project I used scikit-learn and a Random Forest Classifier.',
+      'Given clinical parameters about a patient can we predict if that person has heart disease? I created a machine learning algorithm that uses a classification estimator to detect with 88% accuracy if a patient has heart disease, in this project I used scikit-learn and a Random Forest Classifier.',
     url:
       'https://github.com/A1DS19/heart-desease-detector-classifier/blob/Main/heart-disease-classification.ipynb',
     repo: 'https://github.com/A1DS19/heart-desease-detector-classifier', // if no repo, the button will not show up
